@@ -1,23 +1,23 @@
-// import { HiOutlineDesktopComputer } from "react-icons/hi";
-// import { CiMobile1 } from "react-icons/ci";
-// import { MdWorkspacesOutline } from "react-icons/md";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { CiMobile1 } from "react-icons/ci";
+import { VscSymbolStructure } from "react-icons/vsc";
 export const projectExperience = [
   {
     name: "Website Design",
     projects: 76,
-    // icon: HiOutlineDesktopComputer,
+    icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
     name: "Mobile App Design",
     projects: 63,
-    // icon: CiMobile1,
+    icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
+    name: "Administrative pages",
     projects: 47,
-    // icon: MdWorkspacesOutline,
+    icon: VscSymbolStructure,
     bg: "#F26440",
   },
 ];

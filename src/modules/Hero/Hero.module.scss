@@ -1,0 +1,96 @@
+@import '../../sass/constants.scss';
+
+.wrapper {
+  overflow: hidden;
+
+  .container{
+    position: relative;
+    z-index: 1;
+
+    .upperElements{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      @media (max-width: $sm){
+        justify-content: center;
+        text-align: center;
+        gap: 2rem;
+      }
+    }
+
+    .person {
+      position: absolute;
+      width: 25rem;
+      bottom: -2rem;
+      left: 33%;
+      margin: auto;
+      background-image: url(../../assets/img/splash.png);
+      background-repeat: no-repeat;
+      background-size: 25rem;
+
+      img {
+        margin-bottom: -5px;
+        
+        @media (max-width: $sm) {
+          width: 23rem;
+        }
+      }
+
+      @media (max-width: $sm), (max-width: $md) {
+        position: relative;
+        left: 0;
+        background-size: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: bottom;
+      }
+    }
+
+    .email{
+      position: absolute;
+      top: 50%;
+      left: 0;
+      color: orange;
+
+      @media (max-width: $sm) {
+        position: relative;
+        display: none;
+      }
+    }
+
+    .lowerElements{
+      margin-top: 12rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .experience{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        >:nth-child(2){
+          line-height: 25px;
+        }
+      }
+      .certificate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img{
+          margin-bottom: 1rem;
+          width: 3.5rem;
+        }
+      }
+
+      @media (max-width: $sm), (max-width: $md) {
+        margin-top: 4rem;
+        gap: 4rem;
+        justify-content: center;
+      }
+    }
+  }
+}

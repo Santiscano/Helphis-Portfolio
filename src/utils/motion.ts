@@ -41,7 +41,10 @@ export const slideIn = (
   },
 });
 
-export const staggerContainer = (staggerChildren: any, delayChildren: any) => ({
+export const staggerContainer = (
+  staggerChildren?: any,
+  delayChildren?: any
+) => ({
   hidden: {},
   show: {
     transition: {
@@ -155,8 +158,7 @@ export const staggerChildren = {
 };
 
 export const getMenuStyles = (menuOpened: any) => {
-  if (document.documentElement.clientWidth <= 640) {
-    console.log("outside of sidebar reached");
+  if (document.documentElement.clientWidth <= 1024) {
     return { right: !menuOpened && "-100%" };
   }
 };

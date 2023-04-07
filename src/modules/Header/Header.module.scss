@@ -1,4 +1,4 @@
-@import '../../sass/contants.scss';
+@import '../../sass/constants.scss';
 
 .wrapper {
   position: relative;
@@ -20,9 +20,8 @@
       font-weight: 500;
     }
     .menu{
-
-      @media (max-width: $sm), 
-      (max-sidth: $md) {
+      @media (max-width: $lg), 
+      (max-width: $md) {
         position: absolute;
         list-style: none;
         gap: 2rem;
@@ -70,6 +69,11 @@
         box-shadow: 0px 4px 4px rgba(0,0,0, 0.05);
       }
     }
+    }
+    .menuIcon {
+      @media (min-width: $lg){
+        display: none;
+      }
     }
   }
 }
