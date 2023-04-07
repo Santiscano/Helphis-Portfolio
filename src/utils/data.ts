@@ -3,20 +3,20 @@ import { CiMobile1 } from "react-icons/ci";
 import { VscSymbolStructure } from "react-icons/vsc";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    name: "Website Development",
+    projects: 30,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    name: "Mobile App Development",
+    projects: 10,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Administrative pages",
-    projects: 47,
+    name: "Administrative Websites",
+    projects: 12,
     icon: VscSymbolStructure,
     bg: "#F26440",
   },
@@ -24,30 +24,30 @@ export const projectExperience = [
 
 export const WhatDoIHelp = [
   "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "We understand the needs you need for your business to grow and we will develop a product in relation to your needs.",
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Company 1 ABC",
+    tenure: "Jan 2018 - Sep 2019",
+    role: "Full Stack Developer MERN",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "As a Full Stack Developer at ABC Company, I was responsible for developing and maintaining the company's website using a variety of technologies including HTML, CSS, JavaScript, and PHP. I collaborated with the design team to ensure that the website was visually appealing and user-friendly, and I also integrated various third-party APIs to enhance its functionality.",
   },
   {
     place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    tenure: "Oct 2019 - Apr 2021",
+    role: "Front-End Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "As a Front-End Developer at XYZ Agency, I worked on several client projects, including e-commerce websites, landing pages, and mobile apps. I was responsible for coding and implementing the front-end designs using HTML, CSS, and JavaScript frameworks such as React and Angular. I also collaborated with the back-end developers to ensure seamless integration with the server-side code.",
   },
   {
     place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
+    tenure: "May 2021 - May 2023",
     role: "Sr. Product Designer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "As a Full Stack Developer at ABC Company, I was responsible for developing and maintaining the company's web application using the MERN stack (MongoDB, Express, React, Node.js) as well as MySQL. I collaborated with the product team to design and develop features, as well as maintain and scale the application.",
   },
 ];
 

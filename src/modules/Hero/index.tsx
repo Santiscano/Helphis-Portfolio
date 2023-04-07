@@ -28,7 +28,8 @@ const Hero = () => {
             variants={fadeIn("left", "tween", 0.4, 1)}
             className="secondaryText"
           >
-            I design beautiful simple <br /> things, And I love what i do
+            create the application <br /> you can imagine, beautiful <br /> and
+            simple to use
           </motion.span>
         </div>
 
@@ -45,8 +46,8 @@ const Hero = () => {
         </motion.div>
 
         {/* email */}
-        <a className={css.email} href="mailto:email@domain.com">
-          email@domain.com
+        <a className={css.email} href="mailto:Helphis.tech@gmail.com">
+          Helphis.tech@gmail.com
         </a>
 
         {/* lower elements */}
