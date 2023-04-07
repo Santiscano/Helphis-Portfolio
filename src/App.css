@@ -1,0 +1,19 @@
+.app__header-navbar {
+  width: 100vw;
+  min-height: 70vh;
+  height: 100%;
+  background-image: url(./assets/svg/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aqui {
+    margin-top: 250vw;
+    color: aliceblue;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Eudoxus Sans", sans-serif;
+}
