@@ -6,16 +6,22 @@ import { getMenuStyles } from "../../utils/motion";
 import Button from "../../components/Button";
 import { FiAlignRight, FiXCircle } from "react-icons/fi";
 import { BiPhoneCall } from "react-icons/bi";
+// import
+import useHeaderShadow from "./../../hooks/useHeaderShadow";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
+  const headerShadow = useHeaderShadow();
+
   return (
     <motion.div
       initial="hidden"
       whileInView="show"
       variants={headerVariants}
       viewport={{ once: true, amount: 0.25 }}
-      className={`paddings ${css.wrapper}`}
+      className={`paddings bg-primary ${css.wrapper}`}
+      // @ts-ignore
+      style={{ boxShadow: headerShadow }}
     >
       <div className={`flexCenter innerWidth ${css.container}`}>
         <div className={css.name}>Helphis Dev</div>
@@ -46,13 +52,23 @@ const Header = () => {
         {/* for medium and small screens */}
         <div
           className={css.menuIcon}
-          onClick={() => setMenuOpened((prev) => !prev)}
+          // onClick={() => setMenuOpened((prev) => !prev)}
         >
-          {!menuOpened ? (
-            <FiAlignRight size={"30px"} />
+          <FiAlignRight
+            size={"30px"}
+            onClick={() => setMenuOpened((prev) => !prev)}
+          />
+          {/* {!menuOpened ? (
+            <FiAlignRight
+              size={"30px"}
+              onClick={() => setMenuOpened((prev) => !prev)}
+            />
           ) : (
-            <FiXCircle size={"30px"} />
-          )}
+            <FiXCircle
+              size={"30px"}
+              onClick={() => setMenuOpened((prev) => !prev)}
+            />
+          )} */}
         </div>
       </div>
     </motion.div>
