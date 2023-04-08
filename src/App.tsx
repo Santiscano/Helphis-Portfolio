@@ -5,6 +5,9 @@ import Header from "./modules/Header";
 import Hero from "./modules/Hero";
 import Experience from "./modules/Experience";
 import Works from "./modules/Works";
+import Skills from "./modules/Skills";
+import Projects from "./modules/Projects";
+import Footer from "./modules/Footer";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Hero />
         <Experience />
         {/* <Works /> */}
+        <Skills />
+        {/* <Projects /> */}
+        <Footer />
       </div>
     </div>
   );

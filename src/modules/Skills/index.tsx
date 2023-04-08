@@ -1,4 +1,5 @@
 import React from "react";
+import css from "./Skills.module.scss";
 
 const Skills = () => {
   return <div>Skills</div>;
