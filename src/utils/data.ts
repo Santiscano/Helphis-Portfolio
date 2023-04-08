@@ -51,6 +51,39 @@ export const workExp = [
   },
 ];
 
+export const portfolioExp = [
+  {
+    title: "Bazar Network",
+    info: "Discover the new way to market your agricultural products in the world and with a decentralized economy",
+    url: "https://www.bazar.network/",
+  },
+  {
+    title: "TramiDeudas",
+    info: "Discover how to give your debt-free finances a new chance",
+    url: "https://tramideudas.es/",
+  },
+  {
+    title: "Enviexpress",
+    info: "We are your strategic ally for your marketing and distribution of your products",
+    url: "https://enviexpresslogistica.com/",
+  },
+  {
+    title: "Others Projects",
+    info: "We are your strategic ally for your marketing and distribution of your products",
+    url: "https://www.google.com/",
+  },
+  {
+    title: "Others Projects",
+    info: "We are your strategic ally for your marketing and distribution of your products",
+    url: "https://www.google.com/",
+  },
+  {
+    title: "Others Projects",
+    info: "We are your strategic ally for your marketing and distribution of your products",
+    url: "https://www.google.com/",
+  },
+];
+
 export const comments = [
   {
     name: "Anamika Sandula",

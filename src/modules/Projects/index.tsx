@@ -1,10 +1,7 @@
-import React from "react";
 import css from "./Projects.module.scss";
+import { portfolioExp } from "../../utils/data";
 import { fadeIn, staggerChildren } from "../../utils/motion";
 import { motion } from "framer-motion";
-import bazar from "../../assets/img/Project1-santiago.png";
-import tramideudas from "../../assets/img/project2-santiago.png";
-import enviexpress from "../../assets/img/project3-santiago.png";
 
 const Projects = () => {
   return (
@@ -12,40 +9,23 @@ const Projects = () => {
       variants={staggerChildren}
       initial="hidden"
       whileInView="show"
-      className={`paddings ${css.wrapper}`}
+      className={css.pageContent}
     >
-      <div className={`innerWidth flexCenter ${css.container}`}>
-        <div className={`flexCenter ${css.heading}`}>
-          <div>
-            <span className="primaryText">My Latest Works</span>
-            <p style={{ marginTop: "10px" }}>
-              Perfect solution for digital experience
-            </p>
+      {portfolioExp.map((client, i) => (
+        <motion.div
+          variants={fadeIn("right", "tween", (i + 1) * 0.4, 1)}
+          className={css.card}
+          key={i}
+        >
+          <div className={css.content}>
+            <h2 className={`${css.title}`}>{client.title}</h2>
+            <p className={`${css.copy}`}>{client.info}</p>
+            <a href={client.url} target="_blank" className="primaryButton">
+              View Trips
+            </a>
           </div>
-
-          {/* <span className="secondaryText">
-          Explore More Works
-        </span> */}
-        </div>
-
-        <div className={`${css.showCase}`}>
-          <motion.img
-            variants={fadeIn("up", "tween", 0.5, 0.6)}
-            src={bazar}
-            alt="landing page bazar network"
-          />
-          <motion.img
-            variants={fadeIn("up", "tween", 0.6, 0.6)}
-            src={tramideudas}
-            alt="dashboard admin tramideudas"
-          />
-          <motion.img
-            variants={fadeIn("up", "tween", 0.7, 0.6)}
-            src={enviexpress}
-            alt="dashboard admin exnviexpress"
-          />
-        </div>
-      </div>
+        </motion.div>
+      ))}
     </motion.section>
   );
 };
