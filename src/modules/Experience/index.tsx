@@ -30,14 +30,14 @@ const Experience = () => {
 
               <div>
                 <span>{exp.name}</span>
-                <span className="secondaryText">{exp.projects} Projects</span>
+                {/* <span className="secondaryText">{exp.projects} Projects</span> */}
               </div>
             </motion.div>
           ))}
         </div>
 
         <motion.div variants={textVariant(0.5)} className={css.RightSide}>
-          <span className="primaryText">What do I help?</span>
+          <span className="primaryText">About me</span>
           {WhatDoIHelp.map((paragraph, i) => (
             <span className="secondaryText" key={i}>
               {paragraph}
@@ -46,11 +46,11 @@ const Experience = () => {
 
           <div className={`flexCenter ${css.stats}`}>
             <div className={`flexCenter ${css.stat}`}>
-              <span className="primaryText">52+</span>
+              {/* <span className="primaryText">52+</span> */}
               <span className="secondaryText">Projects Completed</span>
             </div>
             <div className={`flexCenter ${css.stat}`}>
-              <span className="primaryText">20+</span>
+              {/* <span className="primaryText">20+</span> */}
               <span className="secondaryText">Happy Clients</span>
             </div>
           </div>

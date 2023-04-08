@@ -23,7 +23,7 @@ const Hero = () => {
             variants={fadeIn("right", "tween", 0.2, 1)}
             className="primaryText"
           >
-            Hey There, <br /> I'm Helphis
+            Hey There, <br /> I'm Gelfis.
           </motion.span>
           <motion.span
             variants={fadeIn("left", "tween", 0.4, 1)}
@@ -57,7 +57,7 @@ const Hero = () => {
             variants={fadeIn("right", "tween", 0.3, 1)}
             className={css.experience}
           >
-            <div className="primaryText">4</div>
+            <div className="primaryText">2</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>
@@ -69,7 +69,7 @@ const Hero = () => {
             className={css.certificate}
           >
             <img src={certificated} alt="certificated" />
-            <span>CERTIFIED PROFESSIONAL</span>
+            <span>FULL STACK MERN</span>
             <span>WEB DEVELOPER</span>
           </motion.div>
         </div>
