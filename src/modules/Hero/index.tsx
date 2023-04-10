@@ -17,6 +17,7 @@ const Hero = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`innerWidth ${css.container}`}
       >
+        <a className="anchor" id="iam"></a>
         {/* upper elements */}
         <div className={css.upperElements}>
           <motion.span

@@ -25,6 +25,7 @@ import { TbBrandNextjs, TbSql } from "react-icons/tb";
 import { DiMongodb } from "react-icons/di";
 import { BiNetworkChart } from "react-icons/bi";
 import { BsFillCameraReelsFill } from "react-icons/bs";
+import { PrevArrow } from "./../modules/Skills/components/ArrowsCarousel";
 
 export const projectExperience = [
   {
@@ -170,13 +171,16 @@ export const comments = [
     img: "./people2.png",
   },
 ];
+
 export const sliderSettings = {
   dots: true,
   infinite: false,
-  speed: 1000,
+  speed: 3000,
+  autoplaySpeed: 7000,
   slidesToShow: 3,
   autoplay: true,
   slidesToScroll: 1,
+  // PrevArrow: ,
   initialSlide: 0,
   touchMove: true,
   useCSS: true,

@@ -19,7 +19,7 @@ function App() {
         {/* <Works /> */}
         <Skills />
         <Projects />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );

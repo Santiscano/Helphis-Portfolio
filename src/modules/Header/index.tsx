@@ -33,13 +33,19 @@ const Header = () => {
           className={`flexCenter ${css.menu}`}
         >
           <li>
-            <a href="">Services</a>
+            <a href="#iam">I´m</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a href="">Testimonials</a>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#footer">Contact me</a>
           </li>
         </ul>
 

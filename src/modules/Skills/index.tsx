@@ -1,6 +1,6 @@
 import css from "./Skills.module.scss";
 import { motion } from "framer-motion";
-import { staggerChildren } from "../../utils/motion";
+import { footerVariants, staggerChildren } from "../../utils/motion";
 // @ts-ignore
 import Slider from "react-slick";
 import { sliderData, sliderSettings } from "../../utils/data";
@@ -15,9 +15,13 @@ const Skills = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`paddings ${css.wrapper}`}
     >
-      <div className={`yPaddings innerWidth ${css.container}`}>
+      <a className="anchor" id="skills"></a>
+      <motion.div
+        variants={footerVariants}
+        className={`yPaddings innerWidth ${css.container}`}
+      >
         <div className={`flexCenter ${css.heading}`}>
-          <span className="primaryText">my skills</span>
+          <span className="primaryText">My Skills</span>
           <p style={{ marginTop: "2rem" }}>I got a job ....</p>
           <p>the process of submitting ...</p>
         </div>
@@ -54,7 +58,7 @@ const Skills = () => {
             ))}
           </Slider>
         </div>
-      </div>
+      </motion.div>
     </motion.section>
   );
 };
