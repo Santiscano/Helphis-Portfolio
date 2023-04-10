@@ -1,5 +1,6 @@
 import React from "react";
 import helphis from "../../assets/img/person.png";
+import certificated from "../../assets/img/certificated.jpg";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
 import { slideIn, staggerContainer } from "../../utils/motion";
@@ -22,7 +23,7 @@ const Hero = () => {
             variants={fadeIn("right", "tween", 0.2, 1)}
             className="primaryText"
           >
-            Hey There, <br /> I'm Helphis
+            Hey There, <br /> I'm Gelfis.
           </motion.span>
           <motion.span
             variants={fadeIn("left", "tween", 0.4, 1)}
@@ -56,7 +57,7 @@ const Hero = () => {
             variants={fadeIn("right", "tween", 0.3, 1)}
             className={css.experience}
           >
-            <div className="primaryText">4</div>
+            <div className="primaryText">2</div>
             <div className="secondaryText">
               <div>Years</div>
               <div>Experience</div>
@@ -67,8 +68,8 @@ const Hero = () => {
             variants={fadeIn("left", "tween", 0.5, 1)}
             className={css.certificate}
           >
-            <img src="" alt="" />
-            <span>CERTIFIED PROFESSIONAL</span>
+            <img src={certificated} alt="certificated" />
+            <span>FULL STACK MERN</span>
             <span>WEB DEVELOPER</span>
           </motion.div>
         </div>

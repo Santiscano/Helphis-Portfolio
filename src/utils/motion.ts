@@ -157,6 +157,11 @@ export const staggerChildren = {
   },
 };
 
+/**
+ * convert responsive
+ * @param menuOpened string
+ * @returns string
+ */
 export const getMenuStyles = (menuOpened: any) => {
   if (document.documentElement.clientWidth <= 1024) {
     return { right: !menuOpened && "-100%" };
