@@ -11,6 +11,7 @@ const Projects = () => {
       whileInView="show"
       className={css.pageContent}
     >
+      <a className="anchor" id="projects"></a>
       {portfolioExp.map((client, i) => (
         <motion.div
           variants={fadeIn("right", "tween", (i + 1) * 0.2, 1)}

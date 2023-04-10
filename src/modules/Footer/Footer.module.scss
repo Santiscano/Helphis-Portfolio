@@ -1,1 +1,61 @@
 @import '../../sass/constants.scss';
+
+.wrapper{
+  background: white;
+
+  .container{
+    gap: 2rem;
+
+    @media (max-width: $sm){
+      flex-direction: column;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+
+    .left{
+      flex: 3;
+
+      >*{
+        display: block;
+      }
+      >:nth-child(2){
+        margin-top: 3rem;
+
+        a{
+          text-decoration: underline;
+          color: $PMustard;
+        }
+      }
+    }
+    .right{
+      flex: 1;
+
+      .info{
+        margin-bottom: 1rem;
+
+        >*{
+          display: block;
+        }
+      }
+      .menu{
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+        list-style: none;
+
+        @media (max-width: $sm){
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+
+        li{
+          cursor: pointer;
+
+          &:hover{
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
