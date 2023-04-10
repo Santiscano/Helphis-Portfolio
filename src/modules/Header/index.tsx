@@ -35,41 +35,20 @@ const Header = () => {
           <li>
             <a href="">Services</a>
           </li>
-          {/* <li>
-            <a href="">Experience</a>
-          </li> */}
           <li>
             <a href="">Projects</a>
           </li>
           <li>
             <a href="">Testimonials</a>
           </li>
-          {/* <li className={`flexCenter ${css.phone}`}>
-            <p> +49 1525 3409644</p>
-            <BiPhoneCall size={"30px"} />
-          </li> */}
         </ul>
 
         {/* for medium and small screens */}
-        <div
-          className={css.menuIcon}
-          // onClick={() => setMenuOpened((prev) => !prev)}
-        >
+        <div className={css.menuIcon}>
           <FiAlignRight
             size={"30px"}
             onClick={() => setMenuOpened((prev) => !prev)}
           />
-          {/* {!menuOpened ? (
-            <FiAlignRight
-              size={"30px"}
-              onClick={() => setMenuOpened((prev) => !prev)}
-            />
-          ) : (
-            <FiXCircle
-              size={"30px"}
-              onClick={() => setMenuOpened((prev) => !prev)}
-            />
-          )} */}
         </div>
       </div>
     </motion.div>
