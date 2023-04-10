@@ -36,10 +36,18 @@ const Footer = () => {
           </div>
 
           <div className={css.menu}>
-            <li>I'm</li>
-            <li>Services</li>
-            <li>Skills</li>
-            <li>Projects</li>
+            <li>
+              <a href="#iam">I'm</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
           </div>
         </div>
       </motion.div>
