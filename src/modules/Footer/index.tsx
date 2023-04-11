@@ -2,6 +2,7 @@ import css from "./Footer.module.scss";
 import { portfolioExp } from "../../utils/data";
 import { fadeIn, footerVariants, staggerChildren } from "../../utils/motion";
 import { motion } from "framer-motion";
+import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -29,10 +30,17 @@ const Footer = () => {
         <div className={css.right}>
           <div className={css.info}>
             <span className="secondaryText">Information</span>
-            <p>
-              Straße: Weidenweg 11 Stadt: München PLZ: 81547 Bundesland: Bayern
-              Land: Deutschland (Germany)
-            </p>
+            <div className={css.socialMedia}>
+              <a href="">
+                <AiFillGithub />
+              </a>
+              <a href="">
+                <AiFillLinkedin />
+              </a>
+              <a href="">
+                <AiFillMail />
+              </a>
+            </div>
           </div>
 
           <div className={css.menu}>

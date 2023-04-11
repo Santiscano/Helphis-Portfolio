@@ -76,6 +76,22 @@ export const workExp = [
 ];
 export const portfolioExp = [
   {
+    title: "Evolution",
+    info: "ExChange Cryptos",
+    url: "https://evolution-react.vercel.app/",
+    tec: ["react.png", "mongodb.png", "nodejs.png", "expressjs.png"],
+  },
+  {
+    title: "HelphisTech",
+    info: "Dashboar admin services",
+    url: "https://helphistech.vercel.app/de",
+  },
+  {
+    title: "Other",
+    info: "",
+    url: "",
+  },
+  {
     title: "Bazar Network",
     info: "Discover the new way to market your agricultural products in the world and with a decentralized economy",
     url: "https://www.bazar.network/",
@@ -89,21 +105,6 @@ export const portfolioExp = [
     title: "Enviexpress",
     info: "We are your strategic ally for your marketing and distribution of your products",
     url: "https://enviexpresslogistica.com/",
-  },
-  {
-    title: "Others Projects",
-    info: "We are your strategic ally for your marketing and distribution of your products",
-    url: "https://www.google.com/",
-  },
-  {
-    title: "Others Projects",
-    info: "We are your strategic ally for your marketing and distribution of your products",
-    url: "https://www.google.com/",
-  },
-  {
-    title: "Others Projects",
-    info: "We are your strategic ally for your marketing and distribution of your products",
-    url: "https://www.google.com/",
   },
 ];
 export const comments = [
@@ -277,3 +278,46 @@ export const sliderData = [
     ],
   },
 ];
+
+export const sliderSettings2 = {
+  dots: true,
+  infinite: true,
+  speed: 3000,
+  autoplaySpeed: 7000,
+  slidesToShow: 3,
+  autoplay: true,
+  slidesToScroll: 1,
+  // PrevArrow: ,
+  initialSlide: 0,
+  touchMove: true,
+  useCSS: true,
+  rows: 2,
+  slidesPerRow: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 1000,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
+export const sliderData2 = [];

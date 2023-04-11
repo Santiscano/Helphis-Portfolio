@@ -33,19 +33,36 @@
       .info{
         margin-bottom: 1rem;
 
-        >*{
+        span{
           display: block;
+          font-weight: 700;
+        }
+        .socialMedia{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          font-size: 35px;
+
+          a{
+            cursor: pointer;
+            margin: auto;
+
+            &:hover{
+              color: $primary;
+            }
+          }
         }
       }
       .menu{
         display: flex;
         flex-direction: column;
-        gap:2rem;
+        gap:1rem;
         list-style: none;
 
         @media (max-width: $sm){
           flex-direction: row;
           flex-wrap: wrap;
+          margin-top: 3rem;
         }
 
         li{
