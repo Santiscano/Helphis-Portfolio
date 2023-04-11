@@ -8,7 +8,6 @@ import Works from "./modules/Works";
 import Skills from "./modules/Skills";
 import Projects from "./modules/Projects";
 import Footer from "./modules/Footer";
-import Test from "./modules/test";
 
 function App() {
   return (
