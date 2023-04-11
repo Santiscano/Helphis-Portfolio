@@ -2,7 +2,12 @@
 
 .bg-primary {
   background: #F8F7F1;
-  // background: #fff;
+}
+.bg-darkMode {
+  background: #070E0B;
+}
+.bg-navbarDark {
+  background: #272b33;
 }
 
 .innerWidth {
@@ -155,7 +160,7 @@
   }
 }
 .secondaryButton {
-    cursor: pointer;
+  cursor: pointer;
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
   font-size: 0.65rem;

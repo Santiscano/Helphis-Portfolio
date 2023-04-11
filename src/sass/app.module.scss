@@ -4,5 +4,10 @@
     overflow-x: clip;
     position: relative;
     color: $secondary;
-    // height: 100vh;
+}
+
+.containerDarkMode {
+  overflow-x: clip;
+  position: relative;
+    color: $darkSecondary;
 }

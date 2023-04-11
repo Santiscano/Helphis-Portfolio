@@ -7,14 +7,22 @@ import { getMenuStyles } from "../../utils/motion";
 import Button from "../../components/Button";
 import { FiAlignRight, FiXCircle } from "react-icons/fi";
 import { BiPhoneCall } from "react-icons/bi";
+import logoD from "../../assets/img/HELPHIS_Trans_darkmode.png";
 // import
 import useHeaderShadow from "./../../hooks/useHeaderShadow";
 import useOutsideAlerter from "../../hooks/useOutsideAlerter";
+// icons
+import { CiLight } from "react-icons/ci";
+import { MdDarkMode } from "react-icons/md";
+// context
+import useContextProvider from "../../hooks/useAppContext";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
   const menuRef = useRef();
+
+  const { darkMode, handleChangeTheme } = useContextProvider();
 
   useOutsideAlerter({
     menuRef,
@@ -27,19 +35,29 @@ const Header = () => {
       whileInView="show"
       variants={headerVariants}
       viewport={{ once: true, amount: 0.25 }}
-      className={`paddings_header bg-primary ${css.wrapper}`}
+      className={`paddings_header ${darkMode ? "bg-[#272b33]" : "bg-primary"} ${
+        css.wrapper
+      }`}
       // @ts-ignore
       style={{ boxShadow: headerShadow }}
     >
       <div className={`flexCenter innerWidth ${css.container}`}>
-        <img src={logo} style={{ width: "140px" }} alt="logo" />
+        <img
+          src={darkMode ? logoD : logo}
+          style={{ width: "140px" }}
+          alt="logo"
+        />
 
         <ul
           // @ts-ignore
           ref={menuRef}
           // @ts-ignore
           style={getMenuStyles(menuOpened)}
-          className={`flexCenter ${css.menu}`}
+          className={`flexCenter ${css.menu} ${
+            darkMode
+              ? "bg-navbarDark lg:bg-transparent"
+              : "bg-white lg:bg-transparent "
+          }`}
         >
           <li>
             <a href="#iam">I´m</a>
@@ -55,6 +73,9 @@ const Header = () => {
           </li>
           <li>
             <a href="#footer">Contact me</a>
+          </li>
+          <li onClick={handleChangeTheme}>
+            {darkMode ? <CiLight /> : <MdDarkMode />}
           </li>
         </ul>
 

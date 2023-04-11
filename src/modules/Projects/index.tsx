@@ -2,32 +2,32 @@ import css from "./Projects.module.scss";
 import { portfolioExp } from "../../utils/data";
 import { fadeIn, staggerChildren } from "../../utils/motion";
 import { motion } from "framer-motion";
+import useContextProvider from "../../hooks/useAppContext";
 
 const Projects = () => {
+  const { darkMode } = useContextProvider();
   return (
     <>
       <motion.section
         variants={staggerChildren}
         initial="hidden"
         whileInView="show"
-        className={`paddings ${css.wrapper}`}
+        className={`paddings ${css.wrapper} ${
+          darkMode ? "bg-darkMode" : "bg-white"
+        }`}
       >
         <a className="anchor" id="projects"></a>
         <div className={`flexCenter innerWidth ${css.container}`}>
           <h1 className="primaryText flexCenter">My Projects</h1>
-          <p className="secondaryText">
-            learn more about my MERN projects developed
-          </p>
           <div className={css.pageContent}>
             {portfolioExp.map((client, i) => (
               <motion.div
                 variants={fadeIn("right", "tween", (i + 1) * 0.2, 1)}
-                className={css.card}
+                className={`${css.card} shadow-md`}
                 key={i}
               >
                 <div className={css.content}>
                   <h2 className={`${css.title}`}>{client.title}</h2>
-                  {/* <p className={`${css.copy}`}>{client.info}</p> */}
                   <a
                     href={client.url}
                     target="_blank"
