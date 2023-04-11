@@ -1,5 +1,6 @@
-import React from "react";
-import helphis from "../../assets/img/person.png";
+import React, { useState } from "react";
+import helphis from "../../assets/img/gelfis.png";
+import helphisHappy from "../../assets/img/gelfis-alegre.png";
 import certificated from "../../assets/img/certificated.jpg";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
@@ -7,6 +8,16 @@ import { slideIn, staggerContainer } from "../../utils/motion";
 import { fadeIn } from "../../utils/motion";
 
 const Hero = () => {
+  const [imageSrc, setImageSrc] = useState(helphis);
+
+  const handleMouseOver = () => {
+    setImageSrc(helphisHappy);
+  };
+
+  const handleMouseOut = () => {
+    setImageSrc(helphis);
+  };
+
   return (
     <section className={`paddings ${css.wrapper}`}>
       <motion.div
@@ -42,8 +53,13 @@ const Hero = () => {
         >
           <motion.img
             variants={slideIn("up", "tween", 0.5, 1.3)}
-            src={helphis}
+            src={imageSrc}
             alt="i'm"
+            className={`${css.image} ${
+              imageSrc == helphisHappy ? "hovered" : ""
+            }`}
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
           />
         </motion.div>
 
