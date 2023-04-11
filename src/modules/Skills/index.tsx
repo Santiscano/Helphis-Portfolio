@@ -34,7 +34,7 @@ const Skills = () => {
       >
         <div className={`flexCenter ${css.heading}`}>
           <span className="primaryText">My Skills</span>
-          <p className="secondaryText" style={{ marginTop: "2rem" }}>
+          <p className="secondaryText">
             Here you can learn more about me and my abilities. I'm passionate
             about the MERN stack, and I'm excited to share with you the projects
             I've worked on and the skills I've developed along the way.

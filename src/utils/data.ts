@@ -76,6 +76,22 @@ export const workExp = [
 ];
 export const portfolioExp = [
   {
+    title: "Evolution",
+    info: "ExChange Cryptos",
+    url: "https://evolution-react.vercel.app/",
+    tec: ["react.png", "mongodb.png", "nodejs.png", "expressjs.png"],
+  },
+  {
+    title: "HelphisTech",
+    info: "Dashboar admin services",
+    url: "https://helphistech.vercel.app/de",
+  },
+  {
+    title: "Other",
+    info: "",
+    url: "",
+  },
+  {
     title: "Bazar Network",
     info: "Discover the new way to market your agricultural products in the world and with a decentralized economy",
     url: "https://www.bazar.network/",
@@ -89,21 +105,6 @@ export const portfolioExp = [
     title: "Enviexpress",
     info: "We are your strategic ally for your marketing and distribution of your products",
     url: "https://enviexpresslogistica.com/",
-  },
-  {
-    title: "Others Projects",
-    info: "We are your strategic ally for your marketing and distribution of your products",
-    url: "https://www.google.com/",
-  },
-  {
-    title: "Others Projects",
-    info: "We are your strategic ally for your marketing and distribution of your products",
-    url: "https://www.google.com/",
-  },
-  {
-    title: "Others Projects",
-    info: "We are your strategic ally for your marketing and distribution of your products",
-    url: "https://www.google.com/",
   },
 ];
 export const comments = [
