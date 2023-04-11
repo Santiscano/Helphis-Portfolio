@@ -15,9 +15,6 @@ const Projects = () => {
         <a className="anchor" id="projects"></a>
         <div className={`flexCenter innerWidth ${css.container}`}>
           <h1 className="primaryText flexCenter">My Projects</h1>
-          <p className="secondaryText">
-            learn more about my MERN projects developed
-          </p>
           <div className={css.pageContent}>
             {portfolioExp.map((client, i) => (
               <motion.div
@@ -27,7 +24,6 @@ const Projects = () => {
               >
                 <div className={css.content}>
                   <h2 className={`${css.title}`}>{client.title}</h2>
-                  {/* <p className={`${css.copy}`}>{client.info}</p> */}
                   <a
                     href={client.url}
                     target="_blank"
