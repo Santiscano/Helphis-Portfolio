@@ -3,6 +3,7 @@ import { portfolioExp } from "../../utils/data";
 import { fadeIn, footerVariants, staggerChildren } from "../../utils/motion";
 import { motion } from "framer-motion";
 import { AiFillGithub, AiFillLinkedin, AiFillMail } from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -31,14 +32,14 @@ const Footer = () => {
           <div className={css.info}>
             <span className="secondaryText">Information</span>
             <div className={css.socialMedia}>
-              <a href="">
+              <a href="https://github.com/GelfisHorn" target="_blank">
                 <AiFillGithub />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/gelfishorn/" target="_blank">
                 <AiFillLinkedin />
               </a>
-              <a href="">
-                <AiFillMail />
+              <a href="mailto:Helphis.tech@gmail.com">
+                <SiGmail />
               </a>
             </div>
           </div>

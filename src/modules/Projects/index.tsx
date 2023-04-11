@@ -35,25 +35,6 @@ const Projects = () => {
                   >
                     View Trips
                   </a>
-                  {/* <div>
-                    <img
-                      src="../../assets/img/technologies/mongodb.png"
-                      alt=""
-                      width="50px"
-                    />
-                    <img
-                      src={`../../assets/img/technologies/expressjs.png`}
-                      alt=""
-                    />
-                    <img
-                      src={`../../assets/img/technologies/react.png`}
-                      alt=""
-                    />
-                    <img
-                      src={`../../assets/img/technologies/nodejs.png`}
-                      alt=""
-                    />
-                  </div> */}
                 </div>
               </motion.div>
             ))}

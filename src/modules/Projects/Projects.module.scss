@@ -118,7 +118,6 @@ $imageIds: 'project1-mathias.png','project2-mathias.png','project3-mathias.png',
           &:nth-child(#{$i}):before {
             background-image: url("#{$base}/#{$id}");
             background-size: contain;
-            // background-position: center;
             background-repeat: no-repeat;
           }
         }
