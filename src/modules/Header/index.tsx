@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useRef, useState } from "react";
 import css from "./Header.module.scss";
 import { motion } from "framer-motion";
 import logo from "../../assets/img/HELPHIS_Trans.png";
@@ -9,10 +9,17 @@ import { FiAlignRight, FiXCircle } from "react-icons/fi";
 import { BiPhoneCall } from "react-icons/bi";
 // import
 import useHeaderShadow from "./../../hooks/useHeaderShadow";
+import useOutsideAlerter from "../../hooks/useOutsideAlerter";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
+  const menuRef = useRef();
+
+  useOutsideAlerter({
+    menuRef,
+    setMenuOpened,
+  });
 
   return (
     <motion.div
@@ -28,6 +35,8 @@ const Header = () => {
         <img src={logo} style={{ width: "140px" }} alt="logo" />
 
         <ul
+          // @ts-ignore
+          ref={menuRef}
           // @ts-ignore
           style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}
