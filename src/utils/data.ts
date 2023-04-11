@@ -283,7 +283,7 @@ export const sliderSettings2 = {
   dots: true,
   infinite: true,
   speed: 3000,
-  autoplaySpeed: 7000,
+  autoplaySpeed: 4000,
   slidesToShow: 3,
   autoplay: true,
   slidesToScroll: 1,

@@ -5,15 +5,8 @@
     .heading{
       flex-direction: column;
       
-      p{
-        line-height: 30px;
-        margin-top: 3rem;
+      span {
         margin-bottom: 4rem;
-        width: 90%;
-
-        @media (max-width: $sm){
-          width: 100%;
-        }
       }
     }
     .cards{
