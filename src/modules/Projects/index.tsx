@@ -2,15 +2,19 @@ import css from "./Projects.module.scss";
 import { portfolioExp } from "../../utils/data";
 import { fadeIn, staggerChildren } from "../../utils/motion";
 import { motion } from "framer-motion";
+import useContextProvider from "../../hooks/useAppContext";
 
 const Projects = () => {
+  const { darkMode } = useContextProvider();
   return (
     <>
       <motion.section
         variants={staggerChildren}
         initial="hidden"
         whileInView="show"
-        className={`paddings ${css.wrapper}`}
+        className={`paddings ${css.wrapper} ${
+          darkMode ? "bg-darkMode" : "bg-white"
+        }`}
       >
         <a className="anchor" id="projects"></a>
         <div className={`flexCenter innerWidth ${css.container}`}>
@@ -19,7 +23,7 @@ const Projects = () => {
             {portfolioExp.map((client, i) => (
               <motion.div
                 variants={fadeIn("right", "tween", (i + 1) * 0.2, 1)}
-                className={css.card}
+                className={`${css.card} shadow-md`}
                 key={i}
               >
                 <div className={css.content}>

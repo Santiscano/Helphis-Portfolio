@@ -6,18 +6,25 @@ import Slider from "react-slick";
 import { sliderData, sliderSettings, sliderSettings2 } from "../../utils/data";
 import angular from "../../assets/img/technologies/angular.png";
 import astro from "../../assets/img/technologies/astro.png";
+import astroD from "../../assets/img/technologies/darkmode/astro.png";
 import react from "../../assets/img/technologies/react.png";
 import next from "../../assets/img/technologies/nextJs.png";
+import nextD from "../../assets/img/technologies/darkmode/nextjs.png";
 import mongo from "../../assets/img/technologies/mongodb.png";
 import mysql from "../../assets/img/technologies/mysql.png";
 import nodejs from "../../assets/img/technologies/nodejs.png";
+import nodejsD from "../../assets/img/technologies/darkmode/nodejs.png";
 import socketIo from "../../assets/img/technologies/socketIo.png";
-import sass from "../../assets/svg/sass.svg";
+import socketIoD from "../../assets/img/technologies/darkmode/socketio.png";
+import sass from "../../assets/img/technologies/sass.png";
 import solidity from "../../assets/img/technologies/solidity.png";
+import solidityD from "../../assets/img/technologies/darkmode/solidity.png";
 import illustrator from "../../assets/img/technologies/Illustrator.png";
 import photoShop from "../../assets/img/technologies/PhotoShop.png";
+import useContextProvider from "../../hooks/useAppContext";
 
 const Skills = () => {
+  const { darkMode } = useContextProvider();
   return (
     <motion.section
       // @ts-ignore
@@ -44,13 +51,13 @@ const Skills = () => {
               <img src={angular} alt="" />
             </div>
             <div className="imageSlider">
-              <img src={astro} alt="" />
+              <img src={darkMode ? astroD : astro} alt="" />
             </div>
             <div className="imageSlider">
               <img src={react} alt="" />
             </div>
             <div className="imageSlider">
-              <img src={next} alt="" />
+              <img src={darkMode ? nextD : next} alt="" />
             </div>
             <div className="imageSlider flexCenter">
               <img src={mongo} alt="" />
@@ -59,19 +66,19 @@ const Skills = () => {
               <img src={mysql} alt="" />
             </div>
             <div className="imageSlider flexCenter">
-              <img src={nodejs} alt="" />
+              <img src={darkMode ? nodejsD : nodejs} alt="" />
             </div>
             <div className="imageSlider flexCenter">
-              <img src={socketIo} alt="" />
+              <img src={darkMode ? socketIoD : socketIo} alt="" />
             </div>
             <div className="imageSlider flexCenter">
               <img src={sass} alt="" />
             </div>
             <div className="imageSlider flexCenter">
-              <img src={solidity} alt="" />
+              <img src={darkMode ? solidityD : solidity} alt="" />
             </div>
             <div className="imageSlider flexCenter">
-              <img style={{ width: "90px" }} src={illustrator} alt="" />
+              <img src={illustrator} alt="" />
             </div>
             <div className="imageSlider flexCenter">
               <img src={photoShop} alt="" />

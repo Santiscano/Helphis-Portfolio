@@ -1,0 +1,38 @@
+{
+    "navbar": {
+        "im": "i'm",
+        "services": "Services",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contactme": "Contact me"
+    },
+    "im-section": {
+        "title": "Hey There, I'm Gelfis.",
+        "email": "helphis.tech@gmail.com",
+        "years-experience-number": "2",
+        "years-experience-text": "Years of experience",
+        "side-text": "create the application you can imagine, beautiful and simple to use"
+    },
+    "services-section": {
+        "title": "About me",
+        "span-1": "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
+        "span-2": "We understand the needs you need for your business to grow and we will develop a product in relation to your needs.",
+        "icon-1": "Projects Completed",
+        "icon-2": "Happy Clients"
+    },
+    "skills-section": {
+        "title": "My Skills"
+    },
+    "projects-section": {
+        "title": "My projects",
+        "button": "View trips"
+    },
+    "footer": {
+        "column-1" : {
+            "title": "Social media"
+        },
+        "column-2" : {
+            "title": "Contact"
+        }
+    }
+}

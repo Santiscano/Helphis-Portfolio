@@ -76,20 +76,20 @@ export const workExp = [
 ];
 export const portfolioExp = [
   {
-    title: "Evolution",
+    title: "HelphisTech",
     info: "ExChange Cryptos",
-    url: "https://evolution-react.vercel.app/",
+    url: "https://helphistech.vercel.app",
     tec: ["react.png", "mongodb.png", "nodejs.png", "expressjs.png"],
   },
   {
-    title: "HelphisTech",
+    title: "Evolution",
     info: "Dashboar admin services",
-    url: "https://helphistech.vercel.app/de",
+    url: "https://evolution-react.vercel.app",
   },
   {
-    title: "Other",
-    info: "",
-    url: "",
+    title: "UpTask",
+    info: "Manage and administrate projects and tasks",
+    url: "https://uptaskdev.netlify.app/",
   },
   {
     title: "Bazar Network",

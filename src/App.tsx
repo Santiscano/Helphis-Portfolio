@@ -8,11 +8,18 @@ import Works from "./modules/Works";
 import Skills from "./modules/Skills";
 import Projects from "./modules/Projects";
 import Footer from "./modules/Footer";
+// context
+import useContextProvider from "./hooks/useAppContext";
 
 function App() {
+  const { darkMode } = useContextProvider();
   return (
     <div className="app">
-      <div className={`bg-primary ${css.container}`}>
+      <div
+        className={`${darkMode ? "bg-darkMode" : "bg-primary"} ${
+          darkMode ? css.containerDarkMode : css.container
+        }`}
+      >
         <Header />
         <Hero />
         <Experience />

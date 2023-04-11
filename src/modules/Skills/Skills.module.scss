@@ -2,6 +2,9 @@
 
 .wrapper {
   .container{
+    @media(min-width: $md){
+      padding: 4rem;
+    }
     .heading{
       flex-direction: column;
       
@@ -10,7 +13,7 @@
       }
     }
     .cards{
-        
+        padding-bottom: 2rem;
       .slider :global{
         .slick-list {
           margin: 0 -7px;
@@ -39,7 +42,7 @@
       .skills{
         box-shadow: rgb(0 0 0 /5%) -3px 11px 13px 0px;
         height: 19rem;
-        padding: 2rem 0;
+        padding: 4rem 0;
         display: flex !important;
         flex-direction: column;
         gap: 1rem;

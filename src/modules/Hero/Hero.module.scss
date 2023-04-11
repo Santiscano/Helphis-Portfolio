@@ -2,6 +2,15 @@
 
 .wrapper {
   overflow: hidden;
+  .bottom{
+    opacity: 0;
+  }
+  &:hover .top{
+    opacity: 0;
+  }
+  &:hover .bottom{
+    opacity: 1;
+  }
 
   .container{
     position: relative;
@@ -32,10 +41,18 @@
 
       img {
         margin-bottom: -5px;
+        -webkit-transition: opacity .5s ease-in-out;
+        -moz-transition: opacity .5s ease-in-out;
+        -o-transition: opacity .5s ease-in-out;
+        transition: opacity .5s ease-in-out;
         
         @media (max-width: $sm) {
           width: 23rem;
         }
+      }
+      
+      .bottom{
+        position: absolute;
       }
 
       @media (max-width: $sm), (max-width: $md) {
