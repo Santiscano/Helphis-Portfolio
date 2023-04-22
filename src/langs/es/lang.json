@@ -4,34 +4,42 @@
         "services": "Servicios",
         "skills": "Habilidades",
         "projects": "Proyectos",
-        "contactme": "Contactarme"
+        "contactme": "Contacto"
     },
-    "im-section": {
-        "title": "Hola, Soy Gelfis.",
+    "hero": {
+        "title1": "Hola,",
+        "title2": "Soy Gelfis Horn",
         "email": "helphis.tech@gmail.com",
-        "years-experience-number": "2",
-        "years-experience-text": "Años de experiencia",
-        "side-text": "crear la aplicación te puedes imaginar, hermosa y fácil de usar"
+        "years": "2",
+        "yearstext1": "Años",
+        "yearstext2": "de experiencia",
+        "sidetext": "Agradecería una videoconferencia para conocernos y hablar de sus proyectos de desarrollo web. No dude en ponerse en contacto conmigo para concertar una reunión. ¡Gracias y nos vemos pronto!",
+        "button": "Contáctame"
     },
-    "services-section": {
+    "experience": {
         "title": "Acerca de mí",
-        "span-1": "Lo ayudaré a encontrar una solución y resolver su problema. Utilizamos el diseño de procesos para crear productos digitales. Además de que también ayudan a sus negocios.",
-        "span-2": "Entendemos las necesidades que necesita para que su negocio crezca y desarrollaremos un producto en relación con sus necesidades.",
-        "icon-1": "Proyectos completados",
-        "icon-2": "Clientes contentos"
+        "span1": "Soy un desarrollador web <span>full stack</span> apasionado por la tecnología y el desarrollo de software. Me encanta trabajar en proyectos desafiantes y crear soluciones innovadoras a los problemas. Mi experiencia en desarrollo web me ha convertido en un <span>experto</span> en la creación de sitios web receptivos con una excelente experiencia de usuario. Además, estoy muy familiarizado con las tecnologías más populares, así como con muchas otras herramientas de desarrollo web.",
+        "span2": "A lo largo de mi carrera como desarrollador web he tenido la oportunidad de trabajar en diferentes entornos y proyectos, desde pequeños sitios estáticos hasta grandes aplicaciones web, manteniendo siempre el mismo <span>compromiso y dedicación</span> en cada uno de ellos.",
+        "span3": "Mi pasión por el desarrollo web me impulsa a estar al día con las tendencias y tecnologías del mercado, lo que me permite ofrecer siempre soluciones actualizadas y progresivas. Si está buscando un desarrollador web full stack <span>dedicado y apasionado</span>, ¡no dude en ponerse en contacto conmigo! Espero trabajar con usted en sus próximos proyectos y crear juntos soluciones innovadoras y efectivas."
     },
-    "skills-section": {
+    "skills": {
         "title": "Mis Habilidades"
     },
-    "projects-section": {
+    "projects": {
         "title": "Mis proyectos",
-        "button": "Ver más"
+        "button": "Ver más",
+        "infohelphisTech": "Desarrollo de un panel de control de servicio al cliente para monitorear y mejorar la satisfacción del cliente. Un panel de control fácil de usar que proporciona datos en tiempo real y análisis para tomar decisiones rápidas y mejorar la experiencia del cliente.",
+        "infoEvolution":"Desarrolle una plataforma fácil de usar para el comercio de criptomonedas y administre sus inversiones con facilidad.",
+        "infoUpTask":"Desarrolle una aplicación de gestión de tareas con una interfaz fácil de usar y funciones para administrar tareas, plazos y notas. Aumente su productividad y organice su vida.",
+        "infoBazar":"Descubre nuestra plataforma de comercio agrícola basada en tecnología blockchain. Te ofrecemos una forma transparente, segura y eficiente de comprar y vender productos agrícolas.",
+        "infoTrami": "Desarrolle una plataforma de gestión administrativa para abogados en la que puedan ver sus casos asignados y clientes pendientes, así como datos de contacto y otras funciones.",
+        "infoEnvi": "Nuestra plataforma digitaliza todo el proceso de gestión de facturas de proveedores, desde la presentación hasta el pago, para aumentar la eficiencia y mejorar la trazabilidad."
     },
     "footer": {
-        "column-1" : {
+        "column1" : {
             "title": "Redes sociales"
         },
-        "column-2" : {
+        "column2" : {
             "title": "Contacto"
         }
     }
