@@ -6,32 +6,40 @@
         "projects": "Projects",
         "contactme": "Contact me"
     },
-    "im-section": {
-        "title": "Hey There, I'm Gelfis.",
+    "hero": {
+        "title1": "Hey There,",
+        "title2": "I'm Gelfis Horn",
         "email": "helphis.tech@gmail.com",
-        "years-experience-number": "2",
-        "years-experience-text": "Years of experience",
-        "side-text": "create the application you can imagine, beautiful and simple to use"
+        "years": "2",
+        "yearstext1": "Years",
+        "yearstext2": "of experience",
+        "sidetext": "I would appreciate a video conference to get to know each other and talk about your web development projects. Feel free to contact me to arrange a meeting. Thank you and see you soon!",
+        "button": "Contact me"
     },
-    "services-section": {
+    "experience": {
         "title": "About me",
-        "span-1": "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-        "span-2": "We understand the needs you need for your business to grow and we will develop a product in relation to your needs.",
-        "icon-1": "Projects Completed",
-        "icon-2": "Happy Clients"
+        "span1": "I'm a <span>full stack</span> web developer passionate about technology and software development. I love working on challenging projects and creating innovative solutions to problems. My web development experience has made me an <span>expert</span> in creating responsive websites with a great user experience. In addition, I am very familiar with the most popular technologies as well as many other web development tools.",
+        "span2": "Throughout my career as a web developer, I've had the opportunity to work in different environments and projects, from small static sites to large web applications, always maintaining the same <span>commitment and dedication</span> in each of them.",
+        "span3": "My passion for web development drives me to stay up to date with the trends and technologies on the market, which allows me to always offer up-to-date and progressive solutions. If you are looking for a dedicated and passionate full stack web developer, don't hesitate to contact me! I look forward to working with you on your next projects and creating <span>innovative and effective</span> solutions together."
     },
-    "skills-section": {
+    "skills": {
         "title": "My Skills"
     },
-    "projects-section": {
+    "projects": {
         "title": "My projects",
-        "button": "View trips"
+        "button": "See more",
+        "infohelphisTech": "Development of a customer service dashboard to monitor and improve customer satisfaction. A user-friendly dashboard that provides real-time data and analytics to enable quick decision-making and enhance the customer experience.",
+        "infoEvolution":"Develop a user-friendly platform for trading cryptocurrencies and manage your investments with ease.",
+        "infoUpTask":"Develop a task management app with a user-friendly interface and features for managing tasks, deadlines, and notes. Increase your productivity and organize your life.",
+        "infoBazar":"Discover our agricultural trading platform based on blockchain technology. We offer you a transparent, secure, and efficient way to buy and sell agricultural products.",
+        "infoTrami": "Develop a platform for managing law firms where lawyers can view their assigned cases and pending clients, as well as contact information and other functions.",
+        "infoEnvi": "Our platform digitizes the entire process of supplier invoice management, from submission to payment, to increase efficiency and improve traceability."
     },
     "footer": {
-        "column-1" : {
+        "column1" : {
             "title": "Social media"
         },
-        "column-2" : {
+        "column2" : {
             "title": "Contact"
         }
     }

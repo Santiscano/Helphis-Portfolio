@@ -11,13 +11,13 @@ $imageIds: "project1-mathias.png", "project2-mathias.png",
 }
 
 .wrapper {
-  display: none;
+  display: flex;
 
   @media(min-width: $lg ){
-    display: flex;
+    display: none;
   }
   @media(min-width: 1940px ){
-    display: none;
+    display: flex;
   }
   .container {
     display: flex;

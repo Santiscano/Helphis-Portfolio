@@ -26,22 +26,28 @@ import { DiMongodb } from "react-icons/di";
 import { BiNetworkChart } from "react-icons/bi";
 import { BsFillCameraReelsFill } from "react-icons/bs";
 import { PrevArrow } from "./../modules/Skills/components/ArrowsCarousel";
+import project1 from "../assets/img/project1-mathias.png";
+import project2 from "../assets/img/project2-mathias.png";
+import project3 from "../assets/img/project3-mathias.png";
+import project4 from "../assets/img/project1-santiago.png";
+import project5 from "../assets/img/project2-santiago.png";
+import project6 from "../assets/img/project3-santiago.png";
 
 export const projectExperience = [
   {
-    name: "Website Development",
+    name: "Web development",
     projects: 30,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Development",
+    name: "Attractive Design",
     projects: 10,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Administrative Websites",
+    name: "Web maintenance",
     projects: 12,
     icon: VscSymbolStructure,
     bg: "#F26440",
@@ -74,110 +80,44 @@ export const workExp = [
       "As a Full Stack Developer at ABC Company, I was responsible for developing and maintaining the company's web application using the MERN stack (MongoDB, Express, React, Node.js) as well as MySQL. I collaborated with the product team to design and develop features, as well as maintain and scale the application.",
   },
 ];
+export const techHelphis = [FaReact, SiExpress, SiTailwindcss, DiMongodb];
+export const techEvo = [FaReact, SiExpress, SiTailwindcss, DiMongodb];
+export const techUptask = [FaReact, SiExpress, SiTailwindcss, DiMongodb];
+export const techBazar = [FaReact, TbBrandNextjs, SiTailwindcss];
+export const techTrami = [FaAngular, SiExpress, SiTailwindcss, DiMongodb];
+export const techEnvi = [FaReact, SiExpress, SiTailwindcss, TbSql];
+
 export const portfolioExp = [
   {
     title: "HelphisTech",
-    info: "ExChange Cryptos",
     url: "https://helphistech.vercel.app",
-    tec: ["react.png", "mongodb.png", "nodejs.png", "expressjs.png"],
   },
   {
     title: "Evolution",
-    info: "Dashboar admin services",
     url: "https://evolution-react.vercel.app",
   },
   {
     title: "UpTask",
-    info: "Manage and administrate projects and tasks",
     url: "https://uptaskdev.netlify.app/",
   },
-  {
-    title: "Bazar Network",
-    info: "Discover the new way to market your agricultural products in the world and with a decentralized economy",
-    url: "https://www.bazar.network/",
-  },
-  {
-    title: "TramiDeudas",
-    info: "Discover how to give your debt-free finances a new chance",
-    url: "https://tramideudas.es/",
-  },
-  {
-    title: "Enviexpress",
-    info: "We are your strategic ally for your marketing and distribution of your products",
-    url: "https://enviexpresslogistica.com/",
-  },
+  // {
+  //   title: "Bazar Network",
+  //   url: "https://www.bazar.network/",
+  // },
+  // {
+  //   title: "TramiDeudas",
+  //   url: "https://tramideudas.es/",
+  // },
+  // {
+  //   title: "Enviexpress",
+  //   url: "https://enviexpresslogistica.com/",
+  // },
 ];
-export const comments = [
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-];
-
 export const sliderSettings = {
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 3000,
-  autoplaySpeed: 7000,
+  autoplaySpeed: 4000,
   slidesToShow: 3,
   autoplay: true,
   slidesToScroll: 1,
@@ -185,7 +125,8 @@ export const sliderSettings = {
   initialSlide: 0,
   touchMove: true,
   useCSS: true,
-
+  rows: 2,
+  slidesPerRow: 1,
   responsive: [
     {
       breakpoint: 1024,
@@ -278,46 +219,3 @@ export const sliderData = [
     ],
   },
 ];
-
-export const sliderSettings2 = {
-  dots: true,
-  infinite: true,
-  speed: 3000,
-  autoplaySpeed: 4000,
-  slidesToShow: 3,
-  autoplay: true,
-  slidesToScroll: 1,
-  // PrevArrow: ,
-  initialSlide: 0,
-  touchMove: true,
-  useCSS: true,
-  rows: 2,
-  slidesPerRow: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true,
-      },
-    },
-    {
-      breakpoint: 1000,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        initialSlide: 2,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ],
-};
-export const sliderData2 = [];

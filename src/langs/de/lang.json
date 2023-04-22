@@ -6,32 +6,40 @@
         "projects": "Projekte",
         "contactme": "Kontaktiere mich"
     },
-    "im-section": {
-        "title": "Hallo, ich bin Gelfis.",
+    "hero": {
+        "title1": "Hallo,",
+        "title2": "Ich bin Gelfis Horn",
         "email": "helphis.tech@gmail.com",
-        "years-experience-number": "2",
-        "years-experience-text": "Langjährige Erfahrung",
-        "side-text": "Erstellen Sie die Anwendung, die Sie sich vorstellen können, schön und einfach zu bedienen"
+        "years": "2",
+        "yearstext1": "Langjährige",
+        "yearstext2": "Erfahrung",
+        "sidetext": "und würde mich über eine Videokonferenz freuen, um uns kennenzulernen und über Ihre Webentwicklungsprojekte zu sprechen. Kontaktieren Sie mich gerne, um eine Besprechung zu vereinbaren. Danke und bis bald!",
+        "button": "Kontaktiere mich"
     },
-    "services-section": {
+    "experience": {
         "title": "Über mich",
-        "span-1": "Ich helfe Ihnen, eine Lösung zu finden und Ihr Problem zu lösen. Wir verwenden Prozessdesign, um digitale Produkte zu erstellen. Außerdem helfen sie auch ihrem Geschäft.",
-        "span-2": "Wir verstehen die Bedürfnisse, die Sie für das Wachstum Ihres Unternehmens benötigen, und wir entwickeln ein Produkt in Bezug auf Ihre Bedürfnisse.",
-        "icon-1": "Projekte abgeschlossen",
-        "icon-2": "Glückliche Kunden"
+        "span1": "Ich bin ein <span>Full-Stack-Webentwickler</span>, der sich leidenschaftlich für Technologie und Softwareentwicklung begeistert. Ich liebe es, an herausfordernden Projekten zu arbeiten und innovative Lösungen für Probleme zu schaffen. Meine Erfahrung in der Webentwicklung hat mich zum <span>Experten</span> in der Erstellung von responsiven Websites mit einer großartigen Benutzererfahrung gemacht. Zusätzlich bin ich mit den beliebtesten Technologien sowie vielen anderen Webentwicklungstools sehr vertraut.",
+        "span2": "Im Laufe meiner Karriere als Webentwickler hatte ich die Möglichkeit, in verschiedenen Umgebungen und Projekten zu arbeiten, von kleinen statischen Seiten bis hin zu großen Webanwendungen, wobei ich in jedem von ihnen stets dasselbe <span>Engagement und dieselbe Hingabe</span> aufrechterhalte.",
+        "span3": "Meine Leidenschaft für die Webentwicklung treibt mich dazu an, auf dem neuesten Stand der Trends und Technologien auf dem Markt zu bleiben, was es mir ermöglicht, stets aktuelle und fortschrittliche Lösungen anzubieten. Wenn Sie auf der Suche nach einem engagierten und leidenschaftlichen Full-Stack-Webentwickler sind, zögern Sie nicht, mich zu kontaktieren! Ich freue mich darauf, mit Ihnen an Ihren nächsten Projekten zu arbeiten und gemeinsam <span>innovative und wirkungsvolle</span> Lösungen zu schaffen."
     },
-    "skills-section": {
+    "skills": {
         "title": "Meine Fähigkeiten"
     },
-    "projects-section": {
+    "projects": {
         "title": "Meine Projekte",
-        "button": "Mehr sehen"
+        "button": "Mehr sehen",
+        "infohelphisTech": "Entwicklung eines Customer-Service-Dashboards zur Überwachung und Verbesserung der Kundenzufriedenheit. Ein benutzerfreundliches Dashboard, das Echtzeitdaten und Analytics bereitstellt, um schnelle Entscheidungen und die Verbesserung des Kundenerlebnisses zu ermöglichen.",
+        "infoEvolution":"Entwickeln Sie eine benutzerfreundliche Plattform für den Handel mit Kryptowährungen und verwalten Sie Ihre Investitionen mit Leichtigkeit.",
+        "infoUpTask":"Entwickeln Sie eine Aufgabenmanagement-App mit einer benutzerfreundlichen Oberfläche und Funktionen zur Verwaltung von Aufgaben, Terminen und Notizen. Steigern Sie Ihre Produktivität und organisieren Sie Ihr Leben.",
+        "infoBazar":"Entdecken Sie unseren landwirtschaftlichen Handelsplatz, der auf der Blockchain-Technologie basiert. Wir bieten Ihnen eine transparente, sichere und effiziente Art, um Agrarprodukte zu kaufen und zu verkaufen.",
+        "infoTrami": "Entwickeln Sie eine Plattform zur Verwaltung von Anwaltskanzleien, auf der Anwälte ihre zugewiesenen Fälle und ausstehenden Kunden sowie Kontaktdaten und andere Funktionen einsehen können.",
+        "infoEnvi": "Unsere Plattform digitalisiert den gesamten Prozess der Lieferantenrechnungsabwicklung, von der Übermittlung der Rechnung bis zur Zahlung, um die Effizienz zu steigern und die Nachverfolgbarkeit zu verbessern."
     },
     "footer": {
-        "column-1" : {
+        "column1" : {
             "title": "Sozialen Medien"
         },
-        "column-2" : {
+        "column2" : {
             "title": "Kontakt"
         }
     }
